@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 05-nov-2021, 18:08:28
+    Author     : eugen
+*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #37517e !important;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 1050px) {
+    #contenido {
+        flex-direction: column;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #contenido2 {
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+    }
+}
+
+#contenido2 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#botones-adelante-atras {
+    margin: auto;
+    margin-right: 1%;
+}
+
+#game-content {
+    margin: auto;
+    padding: 3vh;
+    border: solid;
+    border-radius: 20px;
+    background-color: white;
+    width: 72vh;
+    height: 87vh;
+}
+
+#botones-game-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#boton-empezar-partida {
+    margin-left: 1%;
+    height: fit-content;
+    margin: auto;
+    margin-left: 1% !important;
+}
+
+#boton-coparar-tableros {
+    margin: auto;
+}
+
+#formulario-seleccion-algoritmo {
+    margin: auto;
+    padding: 3vh;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#game-board {
+    height: 64vh;
+}
+
+#boton-seleccion-algoritmo {
+    margin: auto;
+}
+
+#Pensando {
+    margin-left: 1%;
+    width: 100%;
+}
+
+#tablero {
+    border: solid #636464 1.5px;
+    margin: auto;
+}
+
+.ultimo_movimiento {
+    background-color: #ffca2c96 !important;
+}
+
+.w_square {
+    height: 8vh;
+    width: 8vh;
+    background-color: beige;
+    text-align: center;
+}
+
+.b_square {
+    height: 8vh;
+    width: 8vh;
+    background-color: #198754a1;
+    text-align: center;
+}
+
+.piece {
+    height: 100%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.promotion-piece {
+    height: 20%;
+    width: 20%;
+}
+
+#promotion-modal-pieces {
+    text-align: center;
+}
+
+#contenido-boton-modelo-seleccion-continuar {
+    text-align: right;
+}
+
+.possible_move {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 100%;
+    opacity: 50%;
+    position: relative;
+}
+
+.selected_square {
+    background-color: #d21e1ea1;
+}
+
+.possible_move_box {
+    height: 100%;
+    width: 100%;
+    padding: 25%;
+}
+
+.lds-dual-ring {
+    margin-left: 45%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: -1.9%;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 6px solid #37517e;
+    border-color: #37517e transparent #37517e transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#algoritmo-utilizado {
+    display: inline;
+}
+
+.pagination {
+    justify-content: center !important;
+}
+
+.page-link {
+    color: black !important;
+}
+
+.active .page-link {
+    color: white !important;
+}
+
+#links-tabla-partidas {
+    margin-top: 7%;
+}
+
+#links-tabla-partidas nav {
+    text-align: center;
+}
+
+#links-tabla-partidas nav span {
+    background-color: transparent !important;
+    border: none !important;
+    color: white;
+}
+
+#links-tabla-partidas nav a {
+    color: black;
+}
+
+#modal-dialog-analisis {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+#modal-content-analisis {
+    background-color: #37517e;
+}
+
+#modal-header-analisis {
+    color: white;
+    border: 0px;
+}
+
+#titulo-basededatos {
+    color: white;
+    margin-bottom: 5%;
+}
+
+#icono-cambio-de-lado{
+    margin: auto;
+    font-size: 2.3em;
+    vertical-align: middle;
+    color: #212529;
+}
+
+
+
+.claseParaNegro{
+    background-color: #212529;
+    color: white !important;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+#botonesAdmin{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#botonesAdmin a{
+    border: 1px solid white;
+    margin: auto;
+    height: 90%;
+    width: 45%;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 3vh;
+    color: #0072a7;
+}
+
+#botonesAdmin a:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #0a58ca;
+  }
+
+#botonesAdmin span{
+    margin:auto;
+    font-size: 1.5em;
+}
+
+
